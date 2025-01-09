@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite music is here..</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="about.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png">Spotify</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>My Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover/download.jpg" alt="1">
+                    <span class="songName">ANTIDOTE</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span> <i class="fa-regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/jo tum mere ho.jpg" alt="2">
+                    <span class="songName">Jo Tum Mere Ho</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span> <i class="fa-regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/tu hai kahan.jpg" alt="3">
+                    <span class="songName">TU HAI KAHAN</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span> <i class="fa-regular fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/hasti rhe tu.jpg" alt="4">
+                    <span class="songName">Hasti Rahe Tu</span>
+                    <span class="songlistplay"><span class="timestamp">05:34</span> <i class="fa-regular fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-fast" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="images/music-12883_128.gif" width="42px" height="50px" alt="playing" id="gif" style="opacity: 0;"> 
+            <span id="masterSongName">ANTIDOTE</span>
+            <span id="masterSongTime" class="bottom-timestamp">0:00 / 0:00</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/433a7b571e.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
