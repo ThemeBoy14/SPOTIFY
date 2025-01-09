@@ -5,7 +5,7 @@ let songs = [
     {name: "Jo Tum Mere Ho", filePath: "songs/23.mp3", coverPath: "cover/jo tum mere ho.jpg"},
     {name: "TU HAI KAHAN", filePath: "songs/3.mp3", coverPath: "cover/tu hai kahan.jpg"},
     {name: "Hasti Rahe Tu", filePath: "songs/4.mp3", coverPath: "cover/hasti rhe tu.jpg"},
-    {name: "Hasti Rahe Tu", filePath: "songs/Ye Tune Kya Kiya - Javed Bashir (Lyrics) ｜ Lyrical Bam Hindi.mp3", coverPath: "cover/ye tune kya kiya.jpg"},
+    {name: "Ye Tune Kya Kiya", filePath: "songs/Ye Tune Kya Kiya - Javed Bashir (Lyrics) ｜ Lyrical Bam Hindi.mp3", coverPath: "cover/ye tune kya kiya.jpg"},
 ];
 
 let songIndex = 0;
